@@ -43,7 +43,7 @@ body {
   background-color: #f1e4e6;
   display: flex;
   flex-direction: row;
-  gap: 90px;
+  gap: 63px;
   align-content: center;
   justify-content: center;
   align-items: center;
@@ -52,31 +52,25 @@ body {
   padding-right: calc(50% - 800px);
 }
 
+.the_brand {
+  font-size: 48px;
+  font-weight: 900;
+  }
+
 .main_title {
   color: #222;
-  font-family: Lato;
-  font-size: 48px;
-  font-style: normal;
-  font-weight: 900;
-  line-height: normal;
-}
-
-.main_subtitle {
-  color: #222;
-  font-family: Lato;
   font-size: 32px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  width: 400px;
+  text-align: start;
+  border-left: 8px solid #F16D7F;
+  padding-left: 9px;
 }
 
 .fashion {
   color: #f16d7f;
-  font-family: Lato;
-  font-size: 32px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
 }
 
 .offer {
@@ -116,7 +110,6 @@ body {
 .offer_subtitle {
   color: #fff;
   text-align: center;
-  font-family: Lato;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -125,7 +118,6 @@ body {
 
 .offer_title {
   color: #f16d7f;
-  font-family: Lato;
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
@@ -155,7 +147,6 @@ body {
 
 .product_title {
   color: #222;
-  font-family: Lato;
   font-size: 30px;
   font-style: normal;
   font-weight: 400;
@@ -166,7 +157,6 @@ body {
 
 .product_desc {
   color: #9f9f9f;
-  font-family: Lato;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -177,7 +167,6 @@ body {
 
 .product_subtitle {
   color: #000;
-  font-family: Lato;
   font-size: 13px;
   font-style: normal;
   font-weight: 400;
@@ -186,7 +175,6 @@ body {
 
 .product_text {
   color: #5d5d5d;
-  font-family: Lato;
   font-size: 14px;
   font-style: normal;
   font-weight: 300;
@@ -195,7 +183,6 @@ body {
 
 .product_price {
   color: #f16d7f;
-  font-family: Lato;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -250,7 +237,6 @@ body {
 
 .product_link_button {
   color: #f26376;
-  font-family: Lato;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -284,7 +270,6 @@ body {
 
 .delivery_subtitle {
   color: #fbfbfb;
-  font-family: Lato;
   font-size: 19.96px;
   font-style: normal;
   font-weight: 400;
@@ -294,7 +279,6 @@ body {
 .delivery_text {
   color: #fbfbfb;
   text-align: center;
-  font-family: Lato;
   font-size: 13.972px;
   font-style: normal;
   font-weight: 300;
@@ -336,7 +320,6 @@ body {
   width: 360px;
   color: #222224;
   text-align: center;
-  font-family: Lato;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -380,7 +363,6 @@ body {
 
 .footer_promo_left_text {
   color: #fbfbfb;
-  font-family: Lato;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -415,31 +397,19 @@ body {
     justify-content: center;
   }
 
-  .main_right {
-    padding-left: 67px;
-  }
-
   .main_left_photo {
     max-width: 386px;
   }
 
-  .main_title {
-    color: #222;
-    font-family: Lato;
+  .the_brand {
     font-size: 44px;
-    font-style: normal;
     font-weight: 900;
-    line-height: normal;
   }
 
-  .main_subtitle {
+  .main_title {
     font-size: 24px;
     font-weight: 700;
-  }
-
-  .fashion {
-    font-size: 24px;
-    font-weight: 700;
+    width: 283px;
   }
 
   .offer {
@@ -511,17 +481,13 @@ body {
   }
 
   .main_title {
-    font-size: 48px;
-  }
-
-  .main_subtitle {
     font-size: 20px;
+    width: 250px;
   }
 
-  .fashion {
-    font-size: 20px;
+  .the_brand {
+    font-size: 38px;
   }
-
   .offer {
     display: grid;
     display: flex;
